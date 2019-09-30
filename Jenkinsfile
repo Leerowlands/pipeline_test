@@ -6,5 +6,10 @@ pipeline {
                 echo 'This is a change'
             }
         }
+        stage('test'){
+            steps {
+                echo 'This is a test stage'
+            }
+        }
     }
 }
