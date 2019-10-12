@@ -11,11 +11,7 @@ pipeline {
                 echo 'This is the test stage'
             }
         }
-        stage ('Deploy') {
-            steps {
-                echo 'This is the deploy stage'
-            }
-        }
+        
     }
 
 }                   
