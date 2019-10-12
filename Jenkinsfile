@@ -13,7 +13,7 @@ pipeline {
         }
         stage ('Deploy') {
             steps {
-                echo 'This is the deploy tage'
+                echo 'This is the deploy stage'
             }
         }
     }
