@@ -18,7 +18,7 @@ pipeline {
         }
         stage ('Deploy to production') {
             steps {
-                echo 'Of we go to production!!'
+                echo 'Off we go to production!!'
             }
         }
     }
